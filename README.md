@@ -12,8 +12,9 @@
 - `computacional/ADALINE_parcial1.ipynb`: implementación de ADALINE con arquitectura
   funcional propuesta, entrenada mediante batch gradient descent.
 - `teorico/pacial1si_teorico.pdf`: entrega de la parte teórica del parcial.
-- `src/parcialsi1/`: estructura base del paquete generada por `uv`.
 - `pyproject.toml` / `uv.lock`: definición y bloqueo de dependencias del proyecto.
+- `.gitignore`: excluye del repositorio el ambiente virtual, cachés y archivos
+  generados (`.venv/`, `__pycache__/`, `.pytest_cache/`, `.ipynb_checkpoints/`).
 
 ## Instalación
 
