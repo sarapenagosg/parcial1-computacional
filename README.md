@@ -10,7 +10,7 @@
   de Rosenblatt (funciones elementales, funciones coordinadoras, experimentos con
   AND, XOR y datos sintéticos).
 - `computacional/ADALINE_parcial1.ipynb`: implementación de ADALINE con arquitectura
-  funcional propuesta por la estudiante, entrenada mediante batch gradient descent.
+  funcional propuesta, entrenada mediante batch gradient descent.
 - `teorico/pacial1si_teorico.pdf`: entrega de la parte teórica del parcial.
 - `src/parcialsi1/`: estructura base del paquete generada por `uv`.
 - `pyproject.toml` / `uv.lock`: definición y bloqueo de dependencias del proyecto.
