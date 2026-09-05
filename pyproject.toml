@@ -1,7 +1,7 @@
 [project]
 name = "parcialsi1"
 version = "0.1.0"
-description = "Add your description here"
+description = "Parcial 1 - Sistemas Inteligentes II + Introducción al Deep Learning: implementación de Perceptrón de Rosenblatt y ADALINE"
 readme = "README.md"
 requires-python = ">=3.14"
 dependencies = [
@@ -10,12 +10,8 @@ dependencies = [
     "pandas>=3.0.5",
 ]
 
-[project.scripts]
-parcialsi1 = "parcialsi1:main"
-
-[build-system]
-requires = ["uv_build>=0.12.5,<0.13.0"]
-build-backend = "uv_build"
+[tool.uv]
+package = false
 
 [dependency-groups]
 dev = [
